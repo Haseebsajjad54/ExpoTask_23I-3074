@@ -29,6 +29,7 @@ function getDevMenuHint() {
 }
 
 export default function HomeScreen() {
+  const unusedVariable = "CI test";
   return (
     <ThemedView style={styles.container}>
       <SafeAreaView style={styles.safeArea}>
