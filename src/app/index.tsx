@@ -35,8 +35,16 @@ export default function HomeScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
-          </ThemedText>
+  Welcome to Expo
+</ThemedText>
+
+<ThemedText type="subtitle" style={styles.studentName}>
+  Haseeb Sajjad
+</ThemedText>
+
+<ThemedText type="default">
+  Roll No: 23I-3074
+</ThemedText>
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
@@ -66,6 +74,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     flexDirection: 'row',
+  },
+  studentName: {
+  textAlign: 'center',
   },
   safeArea: {
     flex: 1,
